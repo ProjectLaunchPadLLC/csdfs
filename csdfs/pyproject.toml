@@ -1,0 +1,18 @@
+[project]
+name = "csdfs"
+version = "0.1.0"
+description = "Coupled Spectral Dynamical Field System"
+dependencies = [
+  "torch",
+  "ray",
+  "fastapi",
+  "uvicorn",
+  "numpy",
+  "pydantic",
+  "websockets",
+  "matplotlib"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
